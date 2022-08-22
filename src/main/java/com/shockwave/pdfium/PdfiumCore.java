@@ -23,7 +23,7 @@ public class PdfiumCore {
 
     static {
         try {
-            System.loadLibrary("c++_shared");
+            System.loadLibrary("c++_shared1");
             System.loadLibrary("modpng");
             System.loadLibrary("modft2");
             System.loadLibrary("modpdfium");

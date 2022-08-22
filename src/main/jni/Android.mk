@@ -12,9 +12,9 @@ include $(PREBUILT_SHARED_LIBRARY)
 
 #c++_shared
 include $(CLEAR_VARS)
-LOCAL_MODULE := libmodc++_shared
+LOCAL_MODULE := libmodc++_shared1
 
-LOCAL_SRC_FILES := $(LOCAL_PATH)/lib/$(ARCH_PATH)/libc++_shared.so
+LOCAL_SRC_FILES := $(LOCAL_PATH)/lib/$(ARCH_PATH)/libc++_shared1.so
 
 include $(PREBUILT_SHARED_LIBRARY)
 
