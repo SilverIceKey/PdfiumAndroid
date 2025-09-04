@@ -43,7 +43,7 @@ add_library(${PROJECT_NAME} SHARED
 target_compile_definitions(${PROJECT_NAME} PRIVATE HAVE_PTHREADS)
 target_compile_options(${PROJECT_NAME} PRIVATE -fexceptions)
 target_include_directories(${PROJECT_NAME} PRIVATE
-        "${CMAKE_CURRENT_LIST_DIR}/include"
+        "include"
 )
 
 # === NDK 系统库（-llog -landroid -ljnigraphics）===
